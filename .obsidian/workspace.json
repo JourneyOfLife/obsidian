@@ -1,0 +1,314 @@
+{
+  "main": {
+    "id": "026f9086be8c0777",
+    "type": "split",
+    "children": [
+      {
+        "id": "9746f4034948f430",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2673d221b6a0a025",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AI chatbots/Integrating AI chatbots.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Integrating AI chatbots"
+            }
+          },
+          {
+            "id": "5a6e26cb13d5da5f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GDPR/GDPR.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "GDPR"
+            }
+          },
+          {
+            "id": "00dd68103210e858",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Metadata/JOL Centralized Metadata Registry Specification (v1.0 – January 2026).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "JOL Centralized Metadata Registry Specification (v1.0 – January 2026)"
+            }
+          },
+          {
+            "id": "7a6fdd710b006f47",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hosting 1,200 Lithuanian/Hosting 1,200 Lithuanian Subdomains Without 1,200 IPs.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Hosting 1,200 Lithuanian Subdomains Without 1,200 IPs"
+            }
+          },
+          {
+            "id": "39ac06af6dd56868",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2025-11-26.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-11-26"
+            }
+          },
+          {
+            "id": "44fff2455fbe5634",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2025-11-26.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-11-26"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1e4c235e863957dc",
+    "type": "split",
+    "children": [
+      {
+        "id": "bd64de65a85d6850",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "500ade2d0266a3e8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "d0f42200e54321af",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "de5054bb23e03908",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "9d5501c70b964e0c",
+    "type": "split",
+    "children": [
+      {
+        "id": "ce26a5000314a501",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "89cf60339378c6c6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Sync Framework/ENTERPRISE PROMPT SPECIFICATION.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for ENTERPRISE PROMPT SPECIFICATION"
+            }
+          },
+          {
+            "id": "33228d5c7c9011e0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Sync Framework/ENTERPRISE PROMPT SPECIFICATION.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from ENTERPRISE PROMPT SPECIFICATION"
+            }
+          },
+          {
+            "id": "512db73e446d6a19",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false,
+                "showSearch": true,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "17c0db959ec9b3e1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Sync Framework/ENTERPRISE PROMPT SPECIFICATION.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of ENTERPRISE PROMPT SPECIFICATION"
+            }
+          },
+          {
+            "id": "ed3baa430b85cd75",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "7b82b475c77524c7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GitHub-Journe-Of-Life/journey-of-life-core/HIGH-LEVEL ARCHITECTURE.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "HIGH-LEVEL ARCHITECTURE"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 846.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-textgenerator-plugin:Generate Text!": false,
+      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
+      "obsidian-kanban:Create new board": false,
+      "omnisearch:Omnisearch": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "ai_llm:Local LLM Chat": false,
+      "copilot:Open Copilot Chat": false
+    }
+  },
+  "active": "44fff2455fbe5634",
+  "lastOpenFiles": [
+    "2025-11-26.md",
+    "Hosting 1,200 Lithuanian/OL Project Secure Development Workstation Configuration Specification.md",
+    "Hosting 1,200 Lithuanian/1 PyCharm  Qoder Plugin Over Standalone Qoder.md",
+    "Hosting 1,200 Lithuanian/JOL Terraform Module GCP VM  IP Reservation with Full Compliance Controls.md",
+    "Hosting 1,200 Lithuanian/Hosting 1200 Without 1200 IPs.md",
+    "Hosting 1,200 Lithuanian/Bitrix Multisite.md",
+    "Hosting 1,200 Lithuanian/NGINX config.md",
+    "Hosting 1,200 Lithuanian/Hosting 1,200 Lithuanian Subdomains Without 1,200 IPs.md",
+    "PROXMOX/METADATE/Metadata Registry – Version 1.1.md",
+    "Hosting 1,200 Lithuanian",
+    "PROXMOX/METADATE",
+    "Metadata/JOL Centralized Metadata Registry Specification (v1.0 – January 2026).md",
+    "Metadata",
+    "MCP/MCP-1 4 JOL.md",
+    "PROXMOX/Multi-Tenant Automated Provisioning.md",
+    "PROXMOX/PCI DSS Compliance Module.md",
+    "PROXMOX/Proxmox  production-grade GitHub.md",
+    "PROXMOX",
+    "Pamokos/Untitled.md",
+    "Pamokos/Owner of Journey Of Life (JOL)  learning + governance plan.md",
+    "GDPR/EU Religious Digital Infrastructure Architecture.md",
+    "GDPR/GDPR.md",
+    "GDPR",
+    "a. Directors & Technical Leadership, Journey of Life (JOL)/AI Model Selection.md",
+    "a. Directors & Technical Leadership, Journey of Life (JOL)/Untitled 2.md",
+    "a. Directors & Technical Leadership, Journey of Life (JOL)/Untitled 1.md",
+    "MCP/GitHub Actions CI workflow.md",
+    "Sync Framework/GitHub + Obsidian + Bitrix24 Integration Framework.md",
+    "MCP/(MCP)serve.md",
+    "MCP/What Is an MCP Server.md",
+    "MCP/MVP Checklist for Startups “Journey Of Life”.md",
+    "RAG",
+    "Pamokos",
+    "a. Directors & Technical Leadership, Journey of Life (JOL)/Untitled.base",
+    "a. Directors & Technical Leadership, Journey of Life (JOL)",
+    "Servers LLMs (2025–2026)",
+    "Untitled.canvas"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "theme": "system",
+  "baseFontSize": 20,
+  "baseFontSizeAction": true,
+  "cssTheme": "GitHub Theme",
+  "accentColor": "#5b9563",
+  "nativeMenus": false
+}
