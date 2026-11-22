@@ -1,4 +1,8 @@
 {
   "showUnsupportedFiles": true,
-  "openBehavior": "daily"
+  "openBehavior": "daily",
+  "attachmentFolderPath": "99-Archive/attachments",
+  "alwaysUpdateLinks": true,
+  "newLinkFormat": "shortest",
+  "useMarkdownLinks": false
 }
