@@ -1,0 +1,29 @@
+# ── JOL Obsidian Vault — .gitignore ──────────────────────────────────────
+# IDE project files — never commit machine-specific IDE state
+.idea/
+
+# Obsidian — machine-local workspace state (changes on every open)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.obsidian/graph.json
+
+# Obsidian plugin runtime data that is machine/account-specific
+.obsidian/plugins/*/data.json.bak
+.obsidian/plugins/obsidian-local-rest-api/
+
+# Trash and OS junk
+.trash/
+.DS_Store
+Thumbs.db
+*~
+
+# Secrets & local tooling (GDPR Article 32 — never push credentials)
+.qoder/
+*.pem
+*.key
+*.env
+.env
+
+# Secrets-location map (describes where tokens/credentials live) — local only
+01-Governance/Secure-Workstation/Pass-Password-Store-Structure.md
