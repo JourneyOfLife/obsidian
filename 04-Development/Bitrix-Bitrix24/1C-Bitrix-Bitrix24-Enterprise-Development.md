@@ -621,3 +621,134 @@ The choice of **PhpStorm** over WebStorm is not merely a preference; it is an ar
 3. **Compliance Audit Trail:** Tools like Qodana, PyCharm, and DataGrip produce granular log data and enforce best practices (e.g., strong type hinting, security checks) that are vital for demonstrating adherence to complex regulations like the **GDPR** (Data Protection) and the **EU AI Act** (AI Transparency and Ethics).
 
 This curated JetBrains suite—**PhpStorm, PyCharm, DataGrip, and Qodana**—provides the solid foundation required for a project of this immense scale, complexity, and compliance sensitivity.
+
+
+---
+
+---
+To install **Bitrix24 on Ubuntu 24.04 Desktop**, you must first clarify whether you intend to install the **Desktop Client App** (to connect to an existing Cloud or On-Premise CRM account) or host the actual **Self-Hosted CRM Server** locally on your machine. [[1](https://www.youtube.com/watch?v=lFzqNQdIMvg&t=41)]
+
+The most common path for an Ubuntu Desktop user is Option 1.
+
+---
+
+Option 1: Install the Bitrix24 Desktop App (Client)
+
+The easiest, officially supported method to install the user messenger and collaboration application is through the Canonical Snap Store. [[1](https://snapcraft.io/bitrix24), [2](https://snapcraft.io/install/bitrix/ubuntu)]
+
+- Open your terminal (`Ctrl` + `Alt` + `T`).
+
+- Run the update command:
+    
+    bash
+    
+    ```
+    sudo apt update
+    ```
+    
+    Use code with caution.
+    
+
+- Install the official Bitrix24 client via Snap:
+    
+    bash
+    
+    ```
+    sudo snap install bitrix24
+    ```
+    
+    Use code with caution.
+    
+
+- Once installed, launch the application directly from your Ubuntu Application Grid or run `bitrix24` in your terminal. Log in with your existing account credentials. [[1](https://snapcraft.io/install/bitrix24/ubuntu), [2](https://www.youtube.com/watch?v=lFzqNQdIMvg&t=41)]
+
+---
+
+Option 2: Install the Self-Hosted CRM Server (Advanced)
+
+If you want to run the full CRM database and web instance on your local Ubuntu machine, be aware that Bitrix24's official Linux web script (**BitrixEnv**) is optimized explicitly for RedHat-based systems like Rocky Linux or AlmaLinux. Running it natively on Ubuntu requires manual stack assembly. [[1](https://www.bitrix24.com/self-hosted/installation.php), [2](https://www.bitrix24.com/my/self-hosted/installation.php), [3](https://helpdesk.bitrix24.com/open/9162957/)]
+
+Step 1: Install the LAMP/LEMP Stack
+
+Bitrix24 requires a web server (Apache/Nginx), PHP 8.2 or 8.3, and a MySQL-compatible database system (MySQL 8 or Percona Server). [[1](https://helpdesk.bitrix24.com/open/9162957/), [2](https://www.bitrix24.com/self-hosted/installation.php)]
+
+bash
+
+```
+# Install Apache and MySQL
+sudo apt install apache2 mysql-server -y
+
+# Install PHP and mandatory extensions for Bitrix
+sudo apt install php8.2 php8.2-mysql php8.2-gd php8.2-mbstring php8.2-xml php8.2-curl php8.2-zip -y
+```
+
+Use code with caution.
+
+Step 2: Configure the Database
+
+Log into MySQL to configure a dedicated environment for the CRM: []
+
+bash
+
+```
+sudo mysql -u root
+```
+
+Use code with caution.
+
+Execute the following queries within the MySQL prompt:
+
+sql
+
+```
+CREATE DATABASE bitrix;
+CREATE USER 'bitrix_user'@'localhost' IDENTIFIED BY 'your_secure_password';
+GRANT ALL PRIVILEGES ON bitrix.* TO 'bitrix_user'@'localhost';
+FLUSH PRIVILEGES;
+EXIT;
+```
+
+Use code with caution.
+
+Step 3: Run the Bitrix24 Setup Wizard
+
+Instead of manually configuring folders, you should use the official Bitrix web installer tool. [[1](https://informunity.us/blog/demo-self-hosted-bitrix24/)]
+
+- Download the web script and drop it directly into your web server directory:
+    
+    bash
+    
+    ```
+    cd /var/www/html/
+    sudo wget https://bitrix24.com
+    ```
+    
+    Use code with caution.
+    
+
+- Adjust directory ownership so Apache can read and write to the server:
+    
+    bash
+    
+    ```
+    sudo chown -y www-data:www-data /var/www/html/
+    ```
+    
+    Use code with caution.
+    
+
+- Open your browser and navigate to `http://localhost/bitrixsetup.php`.
+
+- Follow the on-screen graphics prompts to connect your database (`bitrix_user`, password, database name `bitrix`) and choose your desired CRM deployment edition. [[1](https://informunity.us/blog/demo-self-hosted-bitrix24/)]
+
+_Note: For testing purposes on an Ubuntu Desktop environment, Bitrix also provides a pre-packaged VirtualBox appliance file (`.ova`) on the [Bitrix24 Downloads Page](https://www.bitrix24.com/self-hosted/download.php) that isolates the server environment securely away from your main operating system configuration._ [[1](https://www.bitrix24.com/self-hosted/download.php), [2](https://www.bitrix24.id/self-hosted/download.php)]
+
+---
+
+If you run into issues during the configuration, please let me know:
+
+- Are you setting this up for **personal development** or an **enterprise network**?
+
+- Did you choose the **Snap desktop application** or the **web server setup**?
+
+- Are you running into any specific **error codes** (e.g., PHP module missing warnings)?
